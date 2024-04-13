@@ -1,0 +1,131 @@
+
+.usuario{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    position: fixed;
+    height: 10px;
+    width: 100%;
+    background-color: #5086c1;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    
+    
+
+}
+.caixa-login{
+    display: flex;
+    flex-direction: column;
+    background-color: #5086c1;
+    height: 100px;
+    width: 250px;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+.usu-login{
+    justify-content: flex-end;
+    width: 100px;
+    height: 20px;
+    
+}
+
+.img-login{
+    height: 30px;
+}
+
+
+
+.container_titulo{
+    background-color: #5086c1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    left: 0;
+    height: 100px;
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    z-index: 2;
+    
+}
+
+.titulo {
+    
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+   
+   
+}
+
+.container_bloco {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background: #5086c1;
+    height: 130px;
+    left: 0;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    z-index: 1;
+
+}
+
+
+
+.bloco {
+    font-style: italic;
+    width: 250px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid black;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    line-height: 1;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.container_paragrafo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    left: 0;
+    width: 100%;
+    background-color: #b2dafa;
+    margin-top: 200px;
+    position:absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.paragrafo {
+
+    width: 400px;
+    text-align: justify;
+}
+
+.imagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+
+    
