@@ -114,7 +114,7 @@
                 password: formData.get('password')
             };
 
-            fetch('http://172.16.98.143:8000/core/token/', {
+            fetch('http://172.16.98.143:8000/core/login/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -124,7 +124,8 @@
             .then(response => {
                 if (response.ok) {
                     console.log('Login bem-sucedido');
-                    
+                    alert('Login realizado com sucesso!');
+                    window.location.href = "telaHomeTeste.html";
                 } else {
                     console.error('Erro durante o login');
                     //console.log(document.getElementById('msg'))
