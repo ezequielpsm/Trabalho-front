@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendamentos e Reuniões</title>
+  <link rel="stylesheet" href="agendamentos_e_reunioes.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Agendamentos de Reuniões e Treinamentos</h1>
+    <div class="agendar">
+        <h2>Agendar Nova Reunião</h2>
+        <form id="agendarForm">
+          <label for="nome">Nome da Reunião (Treinamento):</label>
+          <input type="text" id="nome"  name="nome" required>
+          <label for="nome">Data da Reunião (Treinamento): </label>
+          <input type="date" name="data"  id="data" required>
+          <label for="horario">Horário:</label>
+          <input type="time" id="hora"  name="hora" required>
+          <label for="participante_1">Participantes:</label>
+          <input type="text" id="emails" placeholder="Digite o email do Participante" name="emails" required>
+          <!--<label for="participante_2">Particpantes:</label>
+          <input type="text" id="participante_2"  name="participante_2" required>
+          <label for="participante_3">Particpantes:</label>
+          <input type="text" id="participante_3"  name="participante_3" required> -->
+
+          <input type="submit" value="Agendar">
+        </form>
+        <a href="telaHomeTeste.html"><button class="btnvoltar">Voltar</button></a>
+      </div>
+    <div class="agendamentos">
+      <h2>Meus Agendamentos</h2>
+      <ul id="listaAgendamentos">
+        
+      </ul>
+    </div>
+    
+    <div id="confirmacao" style="display: none;">
+      <h2>Confirmação de Agendamento</h2>
+      <ul id="listaConfirmacao">
+        
+      </ul>
+    </div>
+  </div>
+
+  <script src="agendamentos_e_reunioes.js"></script>
+</body>
+</html>
