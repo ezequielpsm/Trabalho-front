@@ -56,7 +56,7 @@ body {
   }
   
   input[type="submit"] {
-    background-color: blue;
+    background-color: #004AAD;
     color: #f1eeee;
     cursor: pointer;
   }

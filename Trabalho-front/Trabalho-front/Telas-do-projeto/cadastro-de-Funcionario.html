@@ -1,34 +1,4 @@
-<!-- <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Funcionário</title>
-    
-</head>
 
-<link rel="stylesheet" href="cadastro-de-Funcionario.css">
-
-<body>
-    <div class="tela-cadastro">
-        <h1 class="titulo">CADASTRE-SE</h1>
-        <form id="form-api">
-            <input type="text" placeholder="Usuário" name="usuario"> 
-            <br><br>
-            <input type="text" placeholder="Nome" name="nome"> 
-            <br><br>
-            <input type="email" placeholder="Email" name="email"> 
-            <br><br>
-            <input type="password" placeholder="Senha" name="senha">
-            <br><br>
-            <button type="submit">Enviar</button>
-        </form>
-        <div id="resposta-api"></div>
-    </div>
-
-    <script src="cadastro-de-Funcionario.js"> </script>
-</body>
-</html> -->
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -50,8 +20,12 @@
             <br><br>
             <input type="password" placeholder="Senha" name="senha">
             <br><br>
-            <button type="submit">Enviar</button>
+            <button class="btnenviar" type="submit">Enviar</button>
+            
         </form>
+        <div class="cadastre-se">
+            <p>Tem conta? <a href="tela_de_login.html"><button class="btnvoltar" id="cadastre-se-btn">Login</button></a></p>
+        </div>
         <div id="resposta-api"></div>
     </div>
 

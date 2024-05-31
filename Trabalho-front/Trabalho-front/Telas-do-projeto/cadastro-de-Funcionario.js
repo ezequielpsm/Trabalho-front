@@ -56,7 +56,7 @@ formEl.addEventListener('submit', evento => {
     senha: formData.get('senha'),
   };
 
-  fetch("http://seu-servidor-api.com/cadastro", {
+  fetch("http://10.0.48.192:8000/core/create-user/", {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -72,6 +72,7 @@ formEl.addEventListener('submit', evento => {
       respostaEl.textContent = data.msg;
       // Mostra a tela de confirmação
       confirmacaoEl.style.display = 'block';
+     
     } else {
       respostaEl.textContent = 'Resposta inválida recebida da API';
     }
@@ -90,4 +91,5 @@ formEl.addEventListener('submit', evento => {
 
 function fecharConfirmacao() {
   confirmacaoEl.style.display = 'none';
+  window.location.href = "tela_de_login.html";
 }

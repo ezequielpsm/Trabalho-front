@@ -14,6 +14,7 @@ body{
     color: white;
     padding-top: 20px;
     border-radius: 15px;
+    padding-bottom: 10px;
 }
 .titulo{
     font-family: "Jersey 25", sans-serif;
@@ -30,7 +31,7 @@ input{
 }
 
 button{
-    background-color: blue;
+    background-color: #004AAD;
     border: none;
     padding: 15px;
     width: 100%;
@@ -40,13 +41,29 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+.btnenviar:hover{
     box-shadow: 0px 0px 8px rgb(51, 51, 255);
     transform: scale(1.05);
 }
 .resposta-api{
     top: 10px;
     
+}
+.cadastre-se {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cadastre-se button {
+    background-color: transparent;
+    color: dodgerblue;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cadastre-se button:hover {
+    text-decoration: underline;
 }
 
 .confirmacao {

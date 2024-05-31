@@ -48,7 +48,7 @@
 
         .btnentrar {
 
-            background-color: blue;
+            background-color: #004AAD;
             border: none;
             padding: 15px;
             width: 100%;
@@ -60,7 +60,7 @@
 
         .btncadastrar {
 
-            background-color: blue;
+            background-color: #004AAD;
             border: none;
             padding: 15px;
             width: 100%;
@@ -132,7 +132,7 @@
                 password: formData.get('password')
             };
 
-            fetch('http://172.16.98.143:8000/core/login/', {
+            fetch('http://10.0.48.192:8000/core/login/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

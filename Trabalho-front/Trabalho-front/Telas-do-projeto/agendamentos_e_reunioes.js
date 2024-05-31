@@ -15,10 +15,10 @@ document.getElementById("agendarForm").addEventListener("submit", function (even
   listaAgendamentos.appendChild(novoAgendamento);
 
 
-  document.getElementById("nome").value = "";
-  document.getElementById("hora").value = "";
-  document.getElementById("data").value = "";
-  document.getElementById("emails").value = "";
+  // document.getElementById("nome").value = "";
+  // document.getElementById("hora").value = "";
+  // document.getElementById("data").value = "";
+  // document.getElementById("emails").value = "";
 
 
   document.getElementById("confirmacao").style.display = "block";
@@ -40,7 +40,7 @@ formEl.addEventListener('submit', evento => {
     
   };
 
-  fetch("http://172.16.98.143:8000/core/create-meeting/", {
+  fetch("http://10.0.48.192:8000/core/create-meeting/", {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
