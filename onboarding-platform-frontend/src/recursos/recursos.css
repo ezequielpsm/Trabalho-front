@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://ideogram.ai/api/images/direct/Bs8l7XltQOCgBeD88DjNRA.png);
+    background-size: 150%;
+    background-position: center;
+}
+
+.container {
+    margin: 25px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.912);
+    padding: 5%;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    justify-content: left;
+    align-items: left;
+    box-shadow: 0px 0px 50px -4px #ffffff;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.botao button {
+    display: block;
+    margin: 15px;
+    text-align: center;
+    padding: 18px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border: none;
+    border-radius: 10px;
+    width: 480px;
+    font-size: 17px;
+    background-color: #004AAD;
+    color: #ffffff;
+}
+
+.titulo {
+    /*font-family: 'Cinzel Decorative';*/
+    font-family: "Jersey 25", sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin: 25px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+}

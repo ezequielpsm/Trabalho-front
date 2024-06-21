@@ -1,0 +1,29 @@
+
+body{
+ background: linear-gradient( to right, black, #004AAD, black );
+}
+.titulo{
+    color: white;
+    font-size: 46px;
+    margin-top: 3%;
+    columns: blue;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.swiffy-slider {
+    box-shadow: 0px 0px 50px -4px #ffffff;
+    width: 50%;
+    height: 50%;
+    margin-left:25%;
+    margin-top: 3%;
+    
+
+}
+
+img{
+    
+    width: 100%;
+    height: 100%;
+    
+}
