@@ -166,6 +166,67 @@ section.sobre .flex{
     margin: 15px 0;
 }
 
+footer {
+    background-color: #ffffff62; 
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+footer .interface {
+    max-width: 1500px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+footer .flex {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+footer .footer-logo img {
+    width: 150px; 
+    height: 150px; 
+}
+
+footer .footer-nav ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    gap: 15px; 
+}
+
+footer .footer-nav ul li {
+    display: inline; 
+}
+
+footer .footer-nav ul li a {
+    text-decoration: none; 
+    color: #000; 
+    font-weight: bold; 
+}
+
+footer .footer-nav ul li a:hover {
+    text-decoration: underline; 
+}
+
+footer .footer-social a {
+    color: #000; 
+    font-size: 24px; 
+    margin: 0 10px; 
+}
+
+footer .footer-social a:hover {
+    color: #007bff; 
+}
+
+footer p {
+    margin-top: 20px; 
+    font-size: 14px; 
+    color: white; 
+}
 
 
 
