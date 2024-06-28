@@ -13,7 +13,7 @@ formEl.addEventListener('submit', evento => {
     senha: formData.get('senha'),
   };
 
-  fetch("http://172.26.176.1:8000/core/create-user/", {
+  fetch("http://172.16.103.247:9000/core/create-user/", {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'

@@ -7,7 +7,7 @@ document.getElementById('login-form').addEventListener('submit', function (event
         password: formData.get('password')
     };
 
-    fetch('http://172.26.176.1:8000/core/login/', {
+    fetch('http://172.16.103.247:9000/core/login/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

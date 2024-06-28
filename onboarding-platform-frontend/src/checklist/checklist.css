@@ -1,26 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Seymour+One&display=swap');
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(0, 0, 0, 0.747);
-    
-    background-size: 150%;
-    background-position: center;
-    
-    background-image: url(https://ideogram.ai/api/images/direct/Bs8l7XltQOCgBeD88DjNRA.png);
-    
-    
-    
-}
 
-/* .quadrado{
-    background-image: url('d54bd25959c5c51617830d8dcdea4e6e.jpg');
+
+.quadrado{
+    background-image: linear-gradient(to right, black, #004AAD, black);
     margin-top: 0%;
     margin-left: 0%;
     border: 1px solid black;
     width: 1540px;
     height: 680px;
-} */
+}
 
 
 
@@ -61,7 +50,7 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 10px;
-    background-color: rgb(87, 86, 86);
+    background-image: linear-gradient(to right, #004AAD, #004AAD);
     margin: 4px;
     font-size: 15px;
 

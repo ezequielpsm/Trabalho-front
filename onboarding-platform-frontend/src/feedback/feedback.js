@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
             comentario: comentario
         };
 
-        fetch('http://172.16.127.105:8000/core/feedback/', {
+        fetch('http://172.16.103.247:9000/core/feedback/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -47,3 +47,4 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+

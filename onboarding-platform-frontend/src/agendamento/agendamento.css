@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-    background-color: rgba(0,0,0,0.9) ;
+    background-image: linear-gradient(to right, black, #004AAD,#004AAD, black);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -15,13 +15,14 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: black;
     border-radius: 5px;
   }
   
-  h1, h2 {
+  h1, h2  {
     text-align: center;
     margin-bottom: 20px;
+    color: white;
   }
   
   .agendamentos, .agendar {
@@ -40,6 +41,7 @@ body {
   label {
     display: block;
     margin-bottom: 10px;
+    color: white;
   }
   
   input[type="text"],
@@ -53,6 +55,11 @@ body {
     border: 1px solid #ccc;
     border-radius: 3px;
     box-sizing: border-box;
+    
+  }
+
+  ul{
+    color: white;
   }
   
   input[type="submit"] {
