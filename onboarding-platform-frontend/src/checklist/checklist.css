@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Seymour+One&display=swap');
 
 
 
@@ -7,8 +6,8 @@
     margin-top: 0%;
     margin-left: 0%;
     border: 1px solid black;
-    width: 1540px;
-    height: 680px;
+    width: 100%;
+    height: 800px;
 }
 
 
@@ -22,9 +21,10 @@
 }
 
 .titulo {
-    font-size: 20px;
+    
+    font-size: 35px;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     padding-top: 20px;
 }
 
@@ -51,7 +51,7 @@
     padding-bottom: 15px;
     border-radius: 10px;
     background-image: linear-gradient(to right, #004AAD, #004AAD);
-    margin: 4px;
+    margin: 10px;
     font-size: 15px;
 
 
@@ -67,7 +67,7 @@ input.checkin {
 .checkin {
     padding: 30px;
     float: inline-start;
-    margin-left: 10px;
+    margin-left: 30px;
 
 
 }
@@ -88,7 +88,7 @@ input {
 
 label {
     color: white;
-    margin-left: 10px;
+    margin-left: 55px;
 }
 
 .btnenviar {
@@ -100,7 +100,7 @@ label {
     color: white;
     font-size: 15px;
     cursor: pointer;
-    margin-left: 45px;
+    margin-left: 80px;
     margin-bottom: 5px;
 
 }
@@ -117,7 +117,7 @@ label {
     width: 60%;
     font-size: 15px;
     cursor: pointer;
-    margin-left: 45px;
+    margin-left: 80px;
 }
 
 a {
